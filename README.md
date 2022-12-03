@@ -78,7 +78,7 @@ detector
 │   │   │── training
 │   │   │   ├── calib
 │   │   │   ├── image_2
-│   │   │   ├── image_3
+│   │   │   ├── image_2
 │   │   │   ├── label_2
 │   │   │   ├── velodyne
 │   │   │   ├── planes

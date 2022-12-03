@@ -6,3 +6,5 @@ painted_lidar
 /painting/mmseg/checkpoints
 **/.DS_Store
 **/__pycache__
+# 数据
+detector/data

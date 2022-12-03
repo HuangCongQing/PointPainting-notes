@@ -17,6 +17,6 @@ python val.py --eval_folder ../../detector/data/kitti/training/ --result_dir ../
 cd ../../detector/data/kitti/training/
 mkdir score_hma
 mv log/image_2 score_hma/
-mv log/image_3 score_hma/
+mv log/image_2 score_hma/
 rm -r log
 cd $CURPATH

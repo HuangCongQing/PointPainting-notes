@@ -363,14 +363,14 @@ def main():
         #          dump_all_images=True)
         if not os.path.exists(args.result_dir+'image_2/'):
             os.mkdir(args.result_dir+'image_2/')
-        if not os.path.exists(args.result_dir+'image_3/'):
-            os.mkdir(args.result_dir+'image_3/')
+        if not os.path.exists(args.result_dir+'image_2/'):
+            os.mkdir(args.result_dir+'image_2/')
 
         num_image = 7481
         for idx in tqdm(range(num_image)):
             sample_idx = "%06d" % idx
             eval_minibatch(sample_idx, "image_2/", net, args)
-            eval_minibatch(sample_idx, "image_3/", net, args)
+            eval_minibatch(sample_idx, "image_2/", net, args)
         
         return 0
     elif args.eval is not None:

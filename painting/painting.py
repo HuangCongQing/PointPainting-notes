@@ -229,7 +229,7 @@ class Painter:
             
             # get segmentation score from network
             scores_from_cam = self.get_score(sample_idx, "image_2/")
-            scores_from_cam_r = self.get_score(sample_idx, "image_3/")
+            scores_from_cam_r = self.get_score(sample_idx, "image_2/")
             # scores_from_cam: H * W * 4/5, each pixel have 4/5 scores(0: background, 1: bicycle, 2: car, 3: person, 4: rider)
 
             # get calibration data
