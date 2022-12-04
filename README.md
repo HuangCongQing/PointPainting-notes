@@ -3,6 +3,8 @@
 
 Doc: https://www.yuque.com/huangzhongqing/eozhay/oy21538c6tau2205
 
+@[双愚](https://github.com/HuangCongQing) , 若fork或star请注明来源
+
 # PointPainting
 This repository aims to build an open-source PointPainting package which is easy to understand, deploy and run! We refer to the idea in the [original paper](https://arxiv.org/abs/1911.10150) to implement this open-source framework to conduct the sequential 3D object detection. We utilize the Pytorch and mmsegmentation as the image-based segmnentation approach, and the OpenPCDet as the LiDAR detector.
 
