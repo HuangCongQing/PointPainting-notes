@@ -8,3 +8,4 @@ painted_lidar
 **/__pycache__
 # 数据
 detector/data
+detector/output
