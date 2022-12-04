@@ -1,7 +1,19 @@
 
 ## PointPainting fixed(hcq)_20221203
 
-Doc: https://www.yuque.com/huangzhongqing/eozhay/oy21538c6tau2205
+* Doc: https://www.yuque.com/huangzhongqing/eozhay/oy21538c6tau2205
+* fix bug commit: https://github.com/HuangCongQing/PointPainting-notes/commit/cce3e2382ee4f9951d4b7bf4d21bcb2e270596c3
+#### 运行
+
+|1  语义分割| 2 训练目标检测任务 |
+| --- | --- |
+|  `cd painting && ./get_deeplabv3plus_model.sh && python painting.py  `| `cd detector && python -m pcdet.datasets.kitti.painted_kitti_dataset create_kitti_infos cfgs/dataset_configs/painted_kitti_dataset.yaml && cd tools && python train.py --cfg_file cfgs/kitti_models/pointpillar_painted.yaml`  |
+
+#### 代码逻辑
+
+
+* Doc: https://www.yuque.com/huangzhongqing/eozhay/oy21538c6tau2205
+
 
 @[双愚](https://github.com/HuangCongQing) , 若fork或star请注明来源
 
