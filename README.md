@@ -7,7 +7,7 @@
 
 |1  语义分割| 2 训练目标检测任务 |
 | --- | --- |
-|  `cd painting && ./get_deeplabv3plus_model.sh && python painting.py  `| `cd detector && python -m pcdet.datasets.kitti.painted_kitti_dataset create_kitti_infos cfgs/dataset_configs/painted_kitti_dataset.yaml && cd tools && python train.py --cfg_file cfgs/kitti_models/pointpillar_painted.yaml`  |
+|  `cd painting`<br>` ./get_deeplabv3plus_model.sh `<br>`python painting.py  `| `cd detector `<br>` python -m pcdet.datasets.kitti.painted_kitti_dataset create_kitti_infos cfgs/dataset_configs/painted_kitti_dataset.yaml `<br>` cd tools `<br>` python train.py --cfg_file cfgs/kitti_models/pointpillar_painted.yaml`  |
 
 #### 代码逻辑
 
