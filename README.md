@@ -1,7 +1,7 @@
 
 ## PointPainting fixed(hcq)_20221203
 
-* Doc: https://www.yuque.com/huangzhongqing/eozhay/oy21538c6tau2205
+* Doc: https://www.yuque.com/huangzhongqing/eozhay/oy21538c6tau2205（TODO）
 * fix bug commit: https://github.com/HuangCongQing/PointPainting-notes/commit/cce3e2382ee4f9951d4b7bf4d21bcb2e270596c3
 #### 运行
 
